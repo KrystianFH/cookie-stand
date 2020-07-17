@@ -82,3 +82,8 @@ button:hover {
   background-color: mediumorchid;
   transition: 350ms;
 }
+
+table, td, th, form {
+  border: solid black 1px;
+  border-collapse: collapse;
+}

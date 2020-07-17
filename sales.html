@@ -9,11 +9,11 @@
     <a href="/index.html">Home</a>
   <a href="/sales.html">Sales</a>
   
-  <h1>Salmon Cookie Sales Data</h1>
+  <h1 id="click me">Salmon Cookie Sales Data</h1>
 
-    <h2>Hourly Cookie Sales Averages</h2>
+    <h2 id="mouseover-me">Hourly Cookie Sales Averages</h2>
 
-    <p>Seattle</p>
+    <!-- <p>Seattle</p>
     <ul id = "averagesSeattle">
       
     </ul>
@@ -36,13 +36,31 @@
     <p>Lima</p>
     <ul id = "averagesLima">
       
-    </ul>
+    </ul> -->
+
+    <form id="new-location">
+      <fieldset>
+        <legend>Pat's Salmon Cookies: Locations and Sales Data</legend>
+        <h2>Location Creation Genie</h2>
+
+        <label for="name">New Store Location</label>
+        <input name="name" type="text"></input>
+
+        <label for="minimumCustomer">Minimum # of Customers</label>
+        <input name="minimumCustomer" type="number"></input>
+
+        <label for="maximumCustomer">Maximum # of Customers</label>
+        <input name="maximumCustomer" type="number"></input>
+
+        <label for="averageCookies">Average Cookies Sold</label>
+        <input name="averageCookies" type="number"></input>
+
+        <input type="submit" value="Create New Store">
+      </fieldset>
+    </form>
+    
     <table id="locations">
-      
-
-
-
-
+     
     </table> 
     
 
