@@ -1,89 +1,158 @@
+body {
+  margin: auto;
+  display: inline;
+  border: sienna;
+  border-style: solid;
+  overflow: hidden;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  overflow: scroll;
+}
+
 header {
-  background: #444;
-  height: 90px;
-}
-
-nav {
-  margin: 0 auto;
   width: 960px;
-}
-
-nav img {
-  margin-top: 10px;
-  float: left;
-  margin-right: 30px;
-}
-
-nav ul {
-  float: left;
-}
-
-a {
-  color: salmon;
-  text-decoration: none;
-}
-
-nav li {
-  float: left;
-  line-height: 90px;
-  margin-right: 90px;
+  margin: auto;
+  overflow: hidden;
 }
 
 main {
-  width: 960px;
-  margin: 0 auto;
-}
-
-main > img:first-child {
-  margin-top: 30px;
-}
-
-main > ul:nth-child(2) {
-  margin-top: 30px;
-  overflow: hidden;
-}
-
-main > ul:nth-child(2) > li {
-  float: left;
-  margin-right: 30px;
-}
-
-main > ul:nth-child(2) > li:nth-child(3n) {
-  margin-right: 0;
-}
-
-main > article {
-  margin-top: 30px;
-  overflow: hidden;
-}
-
-main > article > * {
-  float: left;
-  width: 50%;
-}
-
-main > article > section {
+  background-color: slategray;
+  color: rgb(23, 23, 140);
   box-sizing: border-box;
-  padding-left: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 960px;
+  margin: auto;
 }
 
-main > article > section > p {
-  height: 300px;
-  overflow: auto;
+nav > img {
+  width: 100px;
+  float: left;
 }
 
-footer {
+nav > ul {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  float: right;
+  width: 250px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+li{
+  display: inline;
+  margin: 30px;
+}
+
+nav {
+  background-color: salmon;
+  font-weight: 700px;
+  text-align: center;
+  width: 960px;
+  height: 38px;
+}
+
+h1 {
+  display: inline;
+  font-size: 35px;
+}
+
+#fishes {
+  height: 50px;
+  overflow: hidden;
+  margin: 0 200px 0 280px;
+}
+
+#fishes > img {
+  width: 10%
+}
+
+#fishes > h1 {
+  text-align: center;
+}
+
+#locations > p {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#locations > ul {
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: auto;
+  width: 960px;
+}
+
+#locations > li {
+  width: 960px;
+  font-size: 20px;
+}
+
+#locations > img {
+  margin: 30px 100px 20px 100px; 
+}
+
+#family > img {
+  border: salmon dotted 4px;
+  margin-left: 50px;
+}
+
+#family > h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#family > p {
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+}
+
+#cookies > img {
   height: 100px;
-  background-color: #444;
+}
+
+#cutter{
+  float: left;
+}
+
+#frosted {
+ margin-left: 700px;
+ margin-bottom: 100px;
+ width: 150px;
+}
+
+#cookies > h2 {
+  text-align: center;
+  font-weight: 700;
+  width: 100px;
+  margin-left: 300px;
   margin-top: 30px;
+  font-size: 25px;
+  
 }
 
-button:hover {
-  background-color: mediumorchid;
-  transition: 350ms;
+#cookies > p {
+  margin-top: 45px;
 }
 
-table, td, th, form {
-  border: solid black 1px;
-  border-collapse: collapse;
+#sales {
+  background-color: salmon;
+  color: gray;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: auto;
+}
+
+#sales > form {
+  margin: 200px;
+}
+
+#sales > body {
+  margin: auto;
+  width: 960px;
 }
